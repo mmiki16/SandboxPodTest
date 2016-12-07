@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SandboxPodTest_Tests' do
+  pod 'SandboxPodTest', :path => '../'
+  
+  
+end

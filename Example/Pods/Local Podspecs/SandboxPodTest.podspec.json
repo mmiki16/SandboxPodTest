@@ -1,0 +1,22 @@
+{
+  "name": "SandboxPodTest",
+  "version": "0.1.0",
+  "summary": "A short description of SandboxPodTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SandboxPodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Miklós Makkos": "miklos.makkos@lateralreality.hu"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SandboxPodTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SandboxPodTest/Classes/**/*"
+}

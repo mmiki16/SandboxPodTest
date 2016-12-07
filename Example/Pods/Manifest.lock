@@ -1,0 +1,16 @@
+PODS:
+  - SandboxPodTest (0.1.0)
+
+DEPENDENCIES:
+  - SandboxPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  SandboxPodTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SandboxPodTest: b94a1b3d98e9feb178941e7d584e6b5d5738c3f5
+
+PODFILE CHECKSUM: 6c666a56dd5382583fb39249313e5dcd553fb09d
+
+COCOAPODS: 1.1.1

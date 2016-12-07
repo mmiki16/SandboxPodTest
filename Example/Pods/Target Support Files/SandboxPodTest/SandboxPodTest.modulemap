@@ -1,0 +1,6 @@
+framework module SandboxPodTest {
+  umbrella header "SandboxPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

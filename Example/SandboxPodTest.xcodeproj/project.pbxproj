@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		10249C82CBDD62706D2C9F6D /* Pods_SandboxPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SandboxPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDEFA7ED71CA20CD9A2C0F0 /* Pods-SandboxPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandboxPodTest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SandboxPodTest_Tests/Pods-SandboxPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4A341DB0A64C2F4079609C46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A341DB0A64C2F4079609C46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -28,8 +28,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6C5D7257EC5C10849C270215 /* SandboxPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SandboxPodTest.podspec; path = ../SandboxPodTest.podspec; sourceTree = "<group>"; };
-		707A75CCC4EA49AA75CD4F9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6C5D7257EC5C10849C270215 /* SandboxPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SandboxPodTest.podspec; path = ../SandboxPodTest.podspec; sourceTree = "<group>"; };
+		707A75CCC4EA49AA75CD4F9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		80EC54D7DB0D06461E39EF15 /* Pods-SandboxPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandboxPodTest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SandboxPodTest_Tests/Pods-SandboxPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +151,7 @@
 				ORGANIZATIONNAME = "Miklós Makkos";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = H25BF784K9;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -332,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80EC54D7DB0D06461E39EF15 /* Pods-SandboxPodTest_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = H25BF784K9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -355,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BDEFA7ED71CA20CD9A2C0F0 /* Pods-SandboxPodTest_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = H25BF784K9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
